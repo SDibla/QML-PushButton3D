@@ -8,7 +8,7 @@ Window {
     height: 480
     color: "#ffcc8e"
     visibility: "FullScreen"
-    
+
     Rectangle{
         id:hole
         width: 310
@@ -18,7 +18,7 @@ Window {
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.verticalCenter: parent.verticalCenter
     }
-    
+
     Rectangle{
         id:back
         width: 300
