@@ -6,14 +6,24 @@ Window {
     visible: true
     width: 800
     height: 480
-    color: "black"
+    color: "#ffcc8e"
     visibility: "FullScreen"
-
+    
+    Rectangle{
+        id:hole
+        width: 310
+        height: 214
+        color: "black"
+        radius: 31
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.verticalCenter: parent.verticalCenter
+    }
+    
     Rectangle{
         id:back
         width: 300
         height: 200
-        color: "#555353"
+        color: "#046102"
         radius: 31
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.verticalCenter: parent.verticalCenter
@@ -44,14 +54,12 @@ Window {
         }
 
         onPressed: {
-            front.background.color = "#046102"
+            front.background.color = "#007900"
             animatePress.start()
-            back.color = "#424141"
         }
         onReleased: {
             animateRelease.start()
             front.background.color = "#008000"
-            back.color = "#555353"
         }
 
         PropertyAnimation{
