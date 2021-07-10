@@ -10,4 +10,4 @@ QML Application that implement a 3D Push Button with anmiation to emulate the pr
 ![Alt text](/Img/press.png?raw=true "Press")
 
 
-Try it! --> https://tinyurl.com/yhdo9lx8
+Try it! --> https://tinyurl.com/yhuhuq3y
